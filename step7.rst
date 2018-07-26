@@ -180,15 +180,6 @@ on the trimmed/filtered files.
   3. Once the job completes, click the 'View' link to view a generated FastQC
      report.
 
-     .. tip::
-
-         - Starting at this step, DNA Subway results are labeled with a job ID
-           (e.g. fx####). These jobs are available in a 'DNASubway' folder
-           in the home directory of your CyVerse Data Store.
-         - Starting at this step, you may see 'Basic' and 'Advanced' options
-           for analyses. Clicking the 'Advanced' option allows you to set
-           parameters. The Parameters shown in the 'Advanced' step are the defaults
-           used in the 'Basic' option.
   4. Since you may trim reads multiple times to achieve the desired quality of data
      record the job IDs (e.g. fx####) that you wish to use in the subsequent steps.
 
