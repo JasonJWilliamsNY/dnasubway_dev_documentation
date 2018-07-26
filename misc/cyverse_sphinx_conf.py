@@ -73,4 +73,3 @@ def setup(app):
     app.add_stylesheet('cyverse.css')
     #uncomment to enable table sorting app.add_javascript('jquery.tablesorter.min.js')
     app.add_javascript('cyverse.js')
-    app.add_javascript('intercom-script-for-learning.js')

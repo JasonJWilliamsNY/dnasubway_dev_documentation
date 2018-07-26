@@ -35,6 +35,7 @@ examine RNA-Seq datasets for differential transcript abundance (Green Line).
 	Walkthrough of DNA Subway Yellow Line - Sequence Detection <step4.rst>
 	Walkthrough of DNA Subway Blue Line - DNA Barcoding and Phylogenetics <step5.rst>
 	Walkthrough of DNA Subway Green Line - RNA-Seq <step6.rst>
+	Walkthrough of DNA Subway Green Line: Kallisto/Sleuth - RNA-Seq <step7.rst>
 
 
 Prerequisites

@@ -6,17 +6,16 @@
 
 Walkthrough of DNA Subway Green Line
 ------------------------------------
-The Green line runs within CyVerse DNA Subway and was developed to leverages
+The Green line runs within CyVerse DNA Subway and was developed leverages
 powerful computing and data storage infrastructure and uses the `Stampede <https://www.tacc.utexas.edu/systems/stampede>`_
 supercomputer cluster to provide a high performance analytical platform with a
 simple user interface suitable for both teaching and research.
 
 **Some things to remember about the platform**
 
-- You must be a registered user to use Green Line
+- You must be a registered CyVerse user to use Green Line
 - The Green line was designed to make RNA-Seq data analysis "simple". However,
-  we ask that users very carefully and thoughtfully decide what "jobs" they
-  want to submit.
+  we ask that users thoughtfully decide what "jobs" they want to submit.
 - A single Green Line project may take a week to process since HPC computing is
   subject to queues which hundreds of other jobs may be staging for. Additionally
   these systems undergo regular maintenance and are subject to periodic disruption.
@@ -35,14 +34,16 @@ simple user interface suitable for both teaching and research.
 
   1. Log-in to `DNA Subway <https://dnasubway.cyverse.org/>`_ - unregistered users may NOT use Green Line.
 
-  2. For 'Select Project Type' select either Single End Reads or Paired End Reads
+  2. Click on the Green "Next Generation Sequencing" square to start a Green Line project.
 
-  3. For 'Select an Organism' select a species and genome build.
+  3. For 'Select Project Type' select either Single End Reads or Paired End Reads
+
+  4. For 'Select an Organism' select a species and genome build.
 
      .. tip::
          If you don't see a desired species/genome `contact us <https://dnasubway.cyverse.org/feedback.html>`_ to have it added
 
-  4. Enter a project title, and description; click 'Continue'
+  5. Enter a project title, and description; click 'Continue'
 
 **B. Upload Read Data to CyVerse Data Store**
 The sequence read files used in these experiments are too large to upload using
