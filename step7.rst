@@ -51,7 +51,7 @@ in an R-Shiny app.
 
         These directions apply to a "Beta Release" of the Green Line.
         available at: `https://glkallisto.ngrok.io/ <https://glkallisto.ngrok.io/>`_
-        Email dnalcadmin @ cshl.edu for questions. 
+        Email dnalcadmin @ cshl.edu for questions.
 
   2. Click on the Green "Next Generation Sequencing" square to start a Green Line project.
 
@@ -290,8 +290,8 @@ download, and interactive visualization of your differental expression results.
      you Kallisto analysis. You may preview them in the Discovery Enviornment or
      use the path listed to download the files using Cyberduck (see
      `Cyberduck download instructions <https://cyverse-data-store-guide.readthedocs-hosted.com/en/latest/step1.html#download-from-data-store-to-local-computer-using-cyberduck>`_).
-     A download link to a tab-separated file of abundances for each sequence
-     pair is available at the download link.
+     A tab-separated file of abundances for each sequence pair is available at
+     the download link.
 
 **Differential analysis - Shiny App**
 
