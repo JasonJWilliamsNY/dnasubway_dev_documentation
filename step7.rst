@@ -4,8 +4,8 @@
 `Learning Center Home <http://learning.cyverse.org/>`_
 
 
-Walkthrough of DNA Subway Green Line: Kallisto/Sleuth
-------------------------------------------------------
+Walkthrough of DNA Subway Green Line: Kallisto/Sleuth (*Beta*)
+---------------------------------------------------------------
 The Green line runs within CyVerse DNA Subway and leverages
 powerful computing and data storage infrastructure and uses the `Stampede2 <https://www.tacc.utexas.edu/systems/stampede2>`_
 supercomputer cluster to provide a high performance analytical platform with a
@@ -45,7 +45,13 @@ in an R-Shiny app.
 
 **A. Create a project in Subway**
 
-  1. Log-in to `DNA Subway <https://dnasubway.cyverse.org/>`_ - unregistered users may NOT use Green Line.
+  1. Log-in to DNA Subway - unregistered users may NOT use Green Line.
+
+     .. warning::
+
+        These directions apply to a "Beta Release" of the Green Line.
+        available at: `https://glkallisto.ngrok.io/ <https://glkallisto.ngrok.io/>`_
+        Email dnalcadmin @ cshl.edu
 
   2. Click on the Green "Next Generation Sequencing" square to start a Green Line project.
 
