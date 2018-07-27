@@ -392,10 +392,10 @@ You also have the option of adding additional `EST evidence <https://en.wikipedi
      FASTA format" upload the EST file from the link in step 1.
 
   3. Click on 'User BLASTN' to align the ESTs to this
-     section of the Arabidopsis genome.
+     section of the Arabidopsis genome
 
   4. Open 'Web Apollo'. The "Blastn User" track should be loaded. You may move
-     this track to a convienent position on the browser.
+     this track to a convienent position on the browser
 
      |apollo_5|
 
