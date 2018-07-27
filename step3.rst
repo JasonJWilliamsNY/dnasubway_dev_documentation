@@ -486,4 +486,4 @@ in parentheses and can be pasted into the browser):
     :height: 150
 .. |apollo_5| image:: ./img/dna_subway/apollo_5.png
     :width: 420
-    :height: 150
+    :height: 280
