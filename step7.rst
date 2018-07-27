@@ -290,7 +290,8 @@ download, and interactive visualization of your differental expression results.
      you Kallisto analysis. You may preview them in the Discovery Enviornment or
      use the path listed to download the files using Cyberduck (see
      `Cyberduck download instructions <https://cyverse-data-store-guide.readthedocs-hosted.com/en/latest/step1.html#download-from-data-store-to-local-computer-using-cyberduck>`_).
-
+     A download link to a tab-separated file of abundances for each sequence
+     pair is available at the download link. 
 
 **Differential analysis - Shiny App**
 
