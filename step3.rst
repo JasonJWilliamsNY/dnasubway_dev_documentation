@@ -382,6 +382,33 @@ relevant information about splice variants.
 
    |apollo_3|
 
+You also have the option of adding additional `EST evidence <https://en.wikipedia.org/wiki/Expressed_sequence_tag>`_. For the Arabodopsis
+75KB section, we have prepared a selection of EST data. You will need to **close Apollo to load this data**.
+
+  1. Download the Arabidopsis ESTs for this region to your computer from
+     `this link <https://de.cyverse.org/dl/d/A9BED6DE-83F3-4F38-A3FE-0AA0A9AF5D53/EST_Chr1_3729956..3804955.fasta>`_
+
+  2. Click on 'Upload Data'; under "Add DNA data in
+     FASTA format" upload the EST file from the link in step 1.
+
+  3. Click on 'User BLASTN' to align the ESTs to this
+     section of the Arabidopsis genome.
+
+  4. Open 'Web Apollo'. The "Blastn User" track should be loaded. You may move
+     this track to a convienent position on the browser.
+
+     |apollo_5|
+
+While EST evidence is always incomplete, these sequences can help you determine
+features of the gene model.
+
+   .. tip::
+
+      Learn More about Gene Evidence:
+
+      - J.Craig Venter on `ESTs <http://dnaftb.dev.dnalc.org/39/av-2.html>`_
+      - "Dynamic Gene" `Evidence animation <http://dynamicgene.dnalc.org/evidence/evidence.html>`_ (requires Flash)
+
 **D. Determine translation start/stop sites**
 After making your adjustments, you can confirm that your gene model(s)
 represents the longest possible transcripts:
@@ -455,5 +482,8 @@ in parentheses and can be pasted into the browser):
     :width: 420
     :height: 250
 .. |apollo_4| image:: ./img/dna_subway/apollo_4.png
+    :width: 420
+    :height: 150
+.. |apollo_5| image:: ./img/dna_subway/apollo_5.png
     :width: 420
     :height: 150
