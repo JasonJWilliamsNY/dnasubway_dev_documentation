@@ -189,14 +189,14 @@ Sheets to edit and export your metadata files.
 
      .. admonition:: Sample data
 
-        *"montana_controls"* dataset: select **Single End Reads**
+        *"ubiome-test-data"* dataset: select **Single End Reads**
 
 
   4. For 'Select File  Format' select the format the corresponds to your sequence metadata.
 
     .. admonition:: Sample data
 
-        *"montana_controls"* dataset: select **Illumina Casava 1.8**
+        *"ubiome-test-data"* dataset: select **Illumina Casava 1.8**
 
     .. tip::
          Typically, microbiome/eDNA will be in the form of multiplexed FastQ
@@ -239,8 +239,7 @@ directly to the CyVerse Data Store:
     .. admonition:: Sample data
 
         For sample metadata file in this guide select navigate to:
-        Shared Data > cyverse_training > platform_guides > dna_subway >
-        purple_line > montana_controls
+        Shared Data > SEPA_microbiome_2016 > **ubiome-test-data**
 
         Select the **mappingfile_MT_corrected.tsv** and then click
         :guilabel:`&Add selected files`.
@@ -254,7 +253,7 @@ directly to the CyVerse Data Store:
 
     .. admonition:: Sample data
 
-        For *"montana_controls"* dataset navigate to:
+        For *"ubiome-test-data"* dataset navigate to:
         Shared Data > SEPA_microbiome_2016 > **ubiome-test-data**
 
         Select all 11 fastq files (they are compressed and will have the
@@ -527,7 +526,7 @@ question - "what are the differences in species between samples?".
 
     .. admonition:: Sample data
 
-      We recommend the following parameters for the **montana_controls** dataset:
+      We recommend the following parameters for the *"ubiome-test-data"* dataset:
 
        - **Sampling Depth**: 3000
        - **Classifier**: Grenegenes (16s rRNA)
@@ -611,7 +610,7 @@ question - "what are the differences in species between samples?".
 
     .. admonition:: Sample data
 
-      We recommend the following parameters for the **montana_controls** dataset:
+      We recommend the following parameters for the *"ubiome-test-data"* dataset:
 
        - **Group data by**: CollectionMethod
        - **Level of taxonomy to summarize**: 5
