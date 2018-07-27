@@ -6,8 +6,8 @@
 
 Walkthrough of DNA Subway Green Line: Kallisto/Sleuth
 ------------------------------------------------------
-The Green line runs within CyVerse DNA Subway and was developed leverages
-powerful computing and data storage infrastructure and uses the `Stampede <https://www.tacc.utexas.edu/systems/stampede>`_
+The Green line runs within CyVerse DNA Subway and leverages
+powerful computing and data storage infrastructure and uses the `Stampede2 <https://www.tacc.utexas.edu/systems/stampede2>`_
 supercomputer cluster to provide a high performance analytical platform with a
 simple user interface suitable for both teaching and research. `Kallisto <https://pachterlab.github.io/kallisto/about>`_
 is a quick, highly-efficient software for quantifying transcript abundances in
@@ -20,7 +20,7 @@ in an R-Shiny app.
 
 **Some things to remember about the platform**
 
-- You must be a registered CyVerse user to use Green Line
+- You must be a registered CyVerse user to use Green Line.
 - The Green line was designed to make RNA-Seq data analysis "simple". However,
   we ask that users thoughtfully decide what "jobs" they want to submit.
 - A single Green Line project may take a week to process since HPC computing is
@@ -49,16 +49,16 @@ in an R-Shiny app.
 
   2. Click on the Green "Next Generation Sequencing" square to start a Green Line project.
 
-  3. For 'Select Project Type' select either "Single End Reads" or "Paired End Reads"
+  3. For 'Select Project Type' select either "Single End Reads" or "Paired End Reads".
 
     .. admonition:: Sample data
 
-      *"Sorguhum Drought"* dataset: select **Paired End Reads**
+      *"Sorghum Drought"* dataset: select **Paired End Reads**
   4. For 'Select an Organism' select a species and genome build.
 
     .. admonition:: Sample data
 
-      *"Sorguhum Drought"* dataset: select **Sorghum bicolor - Ensemble 22 Sorbi1**
+      *"Sorghum Drought"* dataset: select **Sorghum bicolor - Ensemble 22 Sorbi1**
     .. tip::
          If you don't see a desired species/genome `contact us <https://dnasubway.cyverse.org/feedback.html>`_ to have it added
 
@@ -83,23 +83,23 @@ directly to the CyVerse Data Store.
 
 **A. Select and pair files**
 
-  1. Click on the “Manage Data” stop: this opens a Data store window that says
+  1. Click on the “Manage Data” step: this opens a Data store window that says
      "Select your FASTQ files from the Data Store" (if you are not logged in to
-     CyVerse, it will ask you to do so)
+     CyVerse, it will ask you to do so).
 
   2. Click on the folder that matches your CyVerse username and Navigate to the
      folder where your sequencing files are located.
 
      .. admonition:: Sample data
 
-       *"Sorguhum Drought"* dataset: select **Sample Data**.
+       *"Sorghum Drought"* dataset: select **Sample Data**.
 
   3. Select the sequencing files you want to analyze (either .fastq or .fastq.gz
      format).
 
      .. admonition:: Sample data
 
-       *"Sorguhum Drought"* dataset: You will be presented
+       *"Sorghum Drought"* dataset: You will be presented
        with the following 12 files; check-select all of the files and click the
        :guilabel:`&Add files` button:
 
@@ -124,12 +124,13 @@ directly to the CyVerse Data Store.
 
      .. admonition:: Sample data
 
-       *"Sorguhum Drought"* dataset: Right reads end in "_1" and left reads end in
-       "_2". click the :guilabel:`&Pair Mode Off` button to turn pairing on, and
-       check-select each of the paired samples (e.g IS20351_DS_1_1.fastq.gz and
-       IS20351_DS_1_2.fastq.gz)
+       *"Sorghum Drought"* dataset: Right reads end in "_1" and left reads end in
+       "_2". click the :guilabel:`&Pair Mode On` button to turn pairing on, and
+       check-select each of the paired samples (e.g. IS20351_DS_1_1.fastq.gz and
+       IS20351_DS_1_2.fastq.gz).
 
 **B. Check sequencing quality with FastQC**
+
 It is important to only work with high quality data. `FastQC <http://www.bioinformatics.babraham.ac.uk/projects/fastqc/>`_ is a popular tool
 for determining sequencing quality.
 
@@ -139,11 +140,11 @@ for determining sequencing quality.
 
   1. Once files have been loaded, in the 'Manage Data' window, click the 'Run'
      link in the 'QC' column to run FastQC.
-  2. One the jobs are complete, click the 'View' link to view repeat_results.
+  2. One the jobs are complete, click the 'View' link to view the results.
 
      .. tip::
          You can see a description and explanation of the FastQC report `here <https://cyverse-fastqc-quickstart.readthedocs-hosted.com/en/latest/#summary>`_
-         on the CyVerse Learning Center and a more detailed set of explinations
+         on the CyVerse Learning Center and a more detailed set of explanations
          on the `FastQC website <https://www.bioinformatics.babraham.ac.uk/projects/fastqc/>`_
 
 
@@ -154,7 +155,7 @@ for determining sequencing quality.
 
 Raw reads are first "quality trimmed" (remove poor quality bases off the end(s)
 of a read) and then are "quality filtered" (filter out entire poor quality reads)
-prior to aligning to the genome. After trimming and filtering, FastQC is run
+prior to aligning to the transcriptome. After trimming and filtering, FastQC is run
 on the trimmed/filtered files.
 
   1. Click “FastX ToolKit” to open the FastX Toolkit panel for all your data.
@@ -164,7 +165,7 @@ on the trimmed/filtered files.
 
      .. admonition:: Sample data
 
-       *"Sorguhum Drought"* dataset: The quality of the reads in this dataset is
+       *"Sorghum Drought"* dataset: The quality of the reads in this dataset is
        relatively good. You can skip the FastX Toolkit step for this dataset.
 
      .. tip::
@@ -196,20 +197,20 @@ mapping of RNA-Seq reads to the index. In this tutorial, we have 12 fastQ files
 
   .. tip::
      You can find a detailed video series on the science behind the Kallisto
-     software and pseudoalignment `here <https://www.youtube.com/playlist?list=PL-0S9LiUi0vhjynujVZw34RKmUo6vPmVd>`_:
+     software and pseudoalignment `here <https://www.youtube.com/playlist?list=PL-0S9LiUi0vhjynujVZw34RKmUo6vPmVd>`_.
 
-  1. Click the "Quantification" stop and enter a sample and condition name for
-     each of your samples. Typically You will have several replicates (at least
+  1. Click the "Quantification" step and enter a sample and condition name for
+     each of your samples. You will typically have several replicates (at least
      3 minimum) for each sample. For your condition, our implementation of the
      Kallisto/Sleuth workflow supports **two conditions**.
 
     .. warning::
      When naming your samples and conditions, avoid spaces and special characters
-     (e.g. !#$%^&/, etc.). Also be sure to be consistant with spelling.
+     (e.g. !#$%^&/, etc.). Also be sure to be consistent with spelling.
 
     .. admonition:: Sample data
 
-       *"Sorguhum Drought"* dataset: We suggest the following names for this dataset:
+       *"Sorghum Drought"* dataset: We suggest the following names for this dataset:
 
          .. list-table::
            :header-rows: 1
@@ -237,7 +238,7 @@ mapping of RNA-Seq reads to the index. In this tutorial, we have 12 fastQ files
              - watered
 
   2. After naming the samples and conditions, click the :guilabel:`&Submit` button
-     to submit a job. Typically. within ~1 minute you will be provided with a
+     to submit a job. Typically, within ~1 minute you will be provided with a
      job number. The job will be entered into the queue at the TACC Stampede
      supercomputing system. You can come back and click the Quantification stop
      to see the status of the job. The indication for the quantification stop
@@ -258,7 +259,7 @@ mapping of RNA-Seq reads to the index. In this tutorial, we have 12 fastQ files
 In the "View Results" steps you have access to alignment visualizations, data
 download, and interactive visualization of your differental expression results.
 
-  1. Click the "View results" stop and choose one of the following options:
+  1. Click the "View results" step and choose one of the following options:
 
 **IVG - Integrated Genome Viewer**
 
@@ -294,7 +295,7 @@ download, and interactive visualization of your differental expression results.
 
      The R Shiny App allows you to explore your differential expression results
      as generated by the `Sleuth R package <https://pachterlab.github.io/sleuth/>`_.
-     We will cover highlight for each menu in the app.
+     We will cover highlights for each menu in the app.
 
      **Results Menu**
 
@@ -319,7 +320,7 @@ download, and interactive visualization of your differental expression results.
 
      |sleuth_bootstrap_1|
 
-     This menu will disply a boxplot that indicates the difference in expression
+     This menu will display a boxplot that indicates the difference in expression
      between conditions. The boxplots themselves indicate variation between
      replicates as estimated by bootstrap sampling of the reads. A dropbox enables
      you to select any transcript. Clicking the "Show genes" will load alternative
